@@ -483,8 +483,8 @@ img {
     font-size: 7vw;
   }
 }
-
-@media screen and (min-width: 560px) {
+/* check for nav disfunction when resizing screen*/
+/* @media screen and (min-width: 560px) {
   .nav__about__visible {
     background-color: rgb(158, 158, 158);
     color: red;
@@ -493,7 +493,7 @@ img {
     background-color: rgb(158, 158, 158);
     color: red;
   }
-}
+} */
 
 .flex__card {
   width: 18rem;
