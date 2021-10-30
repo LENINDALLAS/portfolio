@@ -98,7 +98,7 @@ function About(props) {
 
                     </div>
                     <p className='aboutIntro'>
-                        I'm a Front-End Developer from India,<br /><br />
+                        I'm a MERN stack Developer from India,<br /><br />
                         I have serious passion for web development  <br /> making your
                         websites dynamic and user friendly<br /> for end users.<br />
                         Opt me, let's make something special.

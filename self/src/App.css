@@ -102,8 +102,10 @@ img {
   position: absolute;
   color: #f2f4f8;
   z-index: 2;
-  top: 30%;
-  left: 35%;
+  /* top: 30%;
+  left: 30%;
+  right: 30%; */
+  inset: 30% 30% 0 30%;
   font-weight: 600;
 }
 
@@ -479,6 +481,17 @@ img {
   .graphHeading {
     top: -1%;
     font-size: 7vw;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .nav__about__visible {
+    background-color: rgb(158, 158, 158);
+    color: red;
+  }
+  .nav__about {
+    background-color: rgb(158, 158, 158);
+    color: red;
   }
 }
 
