@@ -129,7 +129,13 @@ img {
 }
 
 .name-color {
+  text-decoration: none;
   color: #f8004a;
+}
+
+.name-color:hover {
+  color: #f8004a;
+  cursor: default;
 }
 
 .navContainer {
@@ -397,6 +403,18 @@ img {
   }
 }
 
+/* check for nav disfunction when resizing screen - completed*/
+@media screen and (max-width: 630px) {
+  .nav__about__visible {
+    display: block;
+    margin-top: 5px;
+    border: 3px solid rgb(2, 2, 2);
+  }
+  .nav__about {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .welcome {
     font-size: 1rem;
@@ -428,7 +446,7 @@ img {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
-    padding-left: 40%;
+    /* padding-left: 40%; */
     overflow-x: hidden;
     overflow-y: auto;
   }
@@ -483,17 +501,6 @@ img {
     font-size: 7vw;
   }
 }
-/* check for nav disfunction when resizing screen*/
-/* @media screen and (min-width: 560px) {
-  .nav__about__visible {
-    background-color: rgb(158, 158, 158);
-    color: red;
-  }
-  .nav__about {
-    background-color: rgb(158, 158, 158);
-    color: red;
-  }
-} */
 
 .flex__card {
   width: 18rem;

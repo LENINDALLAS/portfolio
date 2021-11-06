@@ -47,16 +47,16 @@ function Nav() {
             }
 
             <Link to='/contact' className='text-link' onClick={() => scrollFocus('contact')}>
-                <a href className={visible === false ? 'nav__about' : 'nav_about_visible'}>Contact</a>
+                <a href className={visible === false ? 'nav__about' : 'nav__about__visible'}>Contact</a>
             </Link>
             <Link to='/portfolio' className='text-link' onClick={() => scrollFocus('portfolio')}>
-                <a href className={visible === false ? 'nav__about' : 'nav_about_visible'}>Portfolio</a>
+                <a href className={visible === false ? 'nav__about' : 'nav__about__visible'}>Portfolio</a>
             </Link>
             <Link to='/about' className='text-link'>
-                <a href className={visible === false ? 'nav__about' : 'nav_about_visible'}>About</a>
+                <a href className={visible === false ? 'nav__about' : 'nav__about__visible'}>About</a>
             </Link>
             <Link to='/' className='text-link'>
-                <a href className={visible === false ? 'nav__about' : 'nav_about_visible'}>Home</a>
+                <a href className={visible === false ? 'nav__about' : 'nav__about__visible'}>Home</a>
             </Link>
 
         </nav>
