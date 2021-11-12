@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { Form } from 'react-bootstrap/form';
-// import { Button } from 'react-bootstrap/button';
+import Form from 'react-bootstrap/form';
+import Button from 'react-bootstrap/button';
 import { TEMPLATE_ID, SERVICE_ID } from '../config.js';
 
 
@@ -68,7 +68,7 @@ function Contact(props) {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" placeholder="Your message" rows={3} value={message} onChange={(e) => setMessage(e.target.value)} />
                         </Form.Group>
-                        <button type="submit" variant="primary" >Submit</button>
+                        <Button type="submit" variant="primary" >Submit</Button>
                     </Form>
                 </div>
 
