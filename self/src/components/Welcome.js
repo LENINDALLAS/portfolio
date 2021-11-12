@@ -46,7 +46,7 @@ function Welcome(props) {
 
             <span className='welcome-text'>
                 <p>Hello, I'm <a href className='name-color'>Lenin Dallas L,</a></p><br />
-                <p>I'm a Frontend web developer.</p><br />
+                <p>I'm a MERN stack developer.</p><br />
                 <Link to='/about' className='text-link' >
                     <span className='view-button' onMouseOver={handleHover} onMouseLeave={handleLeave} onClick={handleView}>View my work </span><br /><br />
                 </Link>
