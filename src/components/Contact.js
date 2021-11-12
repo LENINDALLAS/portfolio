@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-//import Form from 'react-bootstrap/form';
-import Button from 'react-bootstrap/button';
+import { Form } from 'react-bootstrap/form';
+import { Button } from 'react-bootstrap/button';
 import { TEMPLATE_ID, SERVICE_ID } from '../config.js';
 
 
@@ -55,7 +55,7 @@ function Contact(props) {
             <div className='modalContainer' >
                 <h1 className='slideHeading' ><u>Contact</u></h1>
                 <div className='form__container'>
-                    {/* <Form onSubmit={(e) => handleSubmit(e)}>
+                    <Form onSubmit={(e) => handleSubmit(e)}>
                         <Form.Group className="mb-3" >
                             <Form.Label >Name</Form.Label>
                             <Form.Control type="text" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -69,7 +69,7 @@ function Contact(props) {
                             <Form.Control as="textarea" placeholder="Your message" rows={3} value={message} onChange={(e) => setMessage(e.target.value)} />
                         </Form.Group>
                         <Button type="submit" variant="primary" >Submit</Button>
-                    </Form> */}
+                    </Form>
                 </div>
 
 
