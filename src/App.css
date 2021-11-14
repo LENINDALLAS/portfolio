@@ -503,8 +503,12 @@ img {
   }
 
   .graphHeading {
-    top: -1%;
+    top: 12vh;
     font-size: 7vw;
+  }
+
+  .doughnutGraph {
+    top: 18vh;
   }
 
   .flex__card {
